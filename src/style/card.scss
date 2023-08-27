@@ -1,0 +1,963 @@
+@import "utilities";
+
+.card-out {
+  background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+  width: 100%;
+  height: 200vh;
+  display: table;
+  .card-group {
+    display: table-cell;
+    vertical-align: middle;
+    .card-body {
+      width: 75%;
+      display: table;
+      height: 40vh;
+
+      .box {
+        margin: 0;
+        display: table-cell;
+        vertical-align: middle;
+        width: 55%;
+
+        .box-in {
+          background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+          border-radius: 30px;
+          width: 60%;
+          height: calc(15rem + 15vw);
+          img {
+            margin-left: -9vw;
+            margin-top: 1vw;
+            position: absolute;
+            width: 33%;
+          }
+        }
+      }
+      .text {
+        width: 85%;
+        h1 {
+          font-weight: 600;
+          font-size: calc(1.4rem + 2vw);
+          line-height: 100%;
+        }
+        p {
+          font-size: calc(0.5rem + 1vw);
+        }
+        .btn-group {
+          .btn {
+            margin-top: 0.5vw;
+            color: white;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 1px solid $blue;
+            transition: all 0.3s ease;
+            padding: 0.7vw 1vw 0.7vw 1vw;
+            background-color: $blue;
+            &:hover {
+              transition: all 0.3s ease;
+              background-color: black;
+              color: white;
+              font-weight: bold;
+              // transform: scale(1.05);
+              transform: translate(0, -2px);
+              border: 1px solid black;
+              .icon {
+                color: white;
+              }
+            }
+            .icon {
+              color: white;
+              font-size: calc(0.75rem + 0.7vw);
+              margin-right: 0.3vw;
+              display: inline;
+            }
+            p {
+              font-size: calc(0.4rem + 0.6vw);
+              margin-left: 0.5vw;
+              line-height: 0%;
+              display: inline;
+
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+    .card2 {
+      width: 75%;
+      margin-top: 13vw;
+      display: table;
+      height: 40vh;
+      .box {
+        margin: 0;
+        display: table-cell;
+        vertical-align: middle;
+        width: 55%;
+
+        .box-in {
+          background: linear-gradient(180deg, #4789d5 0%, #57a4ff 60%);
+          border-radius: 30px;
+          width: 60%;
+          height: calc(15rem + 15vw);
+
+          img {
+            margin-left: -11.5vw;
+            margin-top: 1vw;
+            position: absolute;
+            width: 33%;
+          }
+        }
+      }
+      .text {
+        width: 85%;
+        h1 {
+          font-weight: 600;
+          font-size: calc(1.4rem + 2vw);
+          line-height: 100%;
+        }
+        p {
+          font-size: calc(0.5rem + 1vw);
+        }
+        .btn-group {
+          .btn {
+            margin-top: 0.5vw;
+            color: white;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 1px solid $blue;
+            transition: all 0.3s ease;
+            padding: 0.7vw 1vw 0.7vw 1vw;
+            background-color: $blue;
+            &:hover {
+              transition: all 0.3s ease;
+              background-color: black;
+              color: white;
+              font-weight: bold;
+              // transform: scale(1.05);
+              transform: translate(0, -2px);
+              border: 1px solid black;
+              .icon {
+                color: white;
+              }
+            }
+            .icon {
+              color: white;
+              font-size: calc(0.75rem + 0.7vw);
+              margin-right: 0.3vw;
+              display: inline;
+            }
+            p {
+              font-size: calc(0.4rem + 0.6vw);
+              margin-left: 0.5vw;
+              line-height: 0%;
+              display: inline;
+
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .card-out {
+    background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+    width: 100%;
+    height: 170vh;
+    display: table;
+    .card-group {
+      display: table-cell;
+      vertical-align: middle;
+      .card-body {
+        width: 75%;
+
+        display: table;
+
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 100%;
+            img {
+              margin-left: -9vw;
+              margin-top: 1vw;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: calc(1.4rem + 2vw);
+            line-height: 100%;
+          }
+          p {
+            font-size: calc(0.5rem + 1vw);
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: calc(0.75rem + 0.7vw);
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: calc(0.4rem + 0.6vw);
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 75%;
+        margin-top: 15vw;
+        display: table;
+        height: 40vh;
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 100%;
+            img {
+              margin-left: -9vw;
+              margin-top: 1vw;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: calc(1.4rem + 2vw);
+            line-height: 100%;
+          }
+          p {
+            font-size: calc(0.5rem + 1vw);
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: calc(0.75rem + 0.7vw);
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: calc(0.4rem + 0.6vw);
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-out {
+    background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+    width: 100%;
+    height: 170vh;
+    display: table;
+    .card-group {
+      display: table-cell;
+      vertical-align: middle;
+      .card-body {
+        width: 75%;
+
+        display: table;
+
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 100%;
+            img {
+              margin-left: -9vw;
+              margin-top: 1vw;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: calc(1.4rem + 2vw);
+            line-height: 100%;
+          }
+          p {
+            font-size: calc(0.5rem + 1vw);
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: calc(0.75rem + 0.7vw);
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: calc(0.4rem + 0.6vw);
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 75%;
+        margin-top: 15vw;
+        display: table;
+        height: 40vh;
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 100%;
+            img {
+              margin-left: -9vw;
+              margin-top: 1vw;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: calc(1.4rem + 2vw);
+            line-height: 100%;
+          }
+          p {
+            font-size: calc(0.5rem + 1vw);
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: calc(0.75rem + 0.7vw);
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: calc(0.4rem + 0.6vw);
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .card-out {
+    background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+    width: 100%;
+    height: 170vh;
+    display: table;
+    .card-group {
+      display: table-cell;
+      vertical-align: middle;
+      .card-body {
+        width: 75%;
+
+        display: table;
+
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 40vw;
+            img {
+              margin-left: -9vw;
+              margin-top: 5%;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 4vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 2vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 2vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 1.8vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 75%;
+        margin-top: 15vw;
+        display: table;
+        height: 40vh;
+        .box {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 60%;
+            height: 40vw;
+            img {
+              margin-left: -9vw;
+              margin-top: 5%;
+              position: absolute;
+              width: 33%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 4vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 2vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.7vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 2vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 1.8vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .card-out {
+    background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+    width: 100%;
+    height: 130vh;
+    display: table;
+    .card-group {
+      display: table-cell;
+      vertical-align: middle;
+      .card-body {
+        width: 75%;
+
+        display: table;
+
+        .box {
+          margin: 0;
+          display: block;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 100%;
+            height: 40vw;
+            img {
+              margin-left: -9vw;
+              margin-top: 1%;
+              position: absolute;
+              width: 43%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 4vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 2vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.1vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 2vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 1.8vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 75%;
+        margin-top: 0vw;
+        display: table;
+        height: 40vh;
+        .box {
+          margin: 0;
+          display: block;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 100%;
+            height: 40vw;
+            img {
+              margin-left: -9vw;
+              margin-top: 1%;
+              position: absolute;
+              width: 43%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 4vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 2vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.1vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 2vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 1.8vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card-out {
+    background: linear-gradient(0deg, #ffffff 60%, #e8f2ff 100%);
+    width: 100%;
+    height: 100vh;
+    display: table;
+    .card-group {
+      display: table-cell;
+      vertical-align: middle;
+      .card-body {
+        width: 75%;
+
+        display: table;
+
+        .box {
+          margin: 0;
+          display: block;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 100%;
+            height: 40vw;
+            img {
+              margin-left: -9vw;
+              margin-top: 1%;
+              position: absolute;
+              width: 43%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 5vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 3vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.1vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 3.5vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 3vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 75%;
+        margin-top: 0vw;
+        display: table;
+        height: 40vh;
+        .box {
+          margin: 0;
+          display: block;
+          width: 55%;
+
+          .box-in {
+            background: linear-gradient(180deg, #7ebaff 0%, #c4dffe 100%);
+            border-radius: 30px;
+            width: 100%;
+            height: 40vw;
+
+            img {
+              margin-left: -9vw;
+              margin-top: 1%;
+              position: absolute;
+              width: 43%;
+            }
+          }
+        }
+        .text {
+          width: 85%;
+          h1 {
+            font-weight: 600;
+            font-size: 5vw;
+            line-height: 100%;
+          }
+          p {
+            font-size: 3vw;
+          }
+          .btn-group {
+            .btn {
+              margin-top: 0.5vw;
+              color: white;
+              font-weight: bold;
+              border-radius: 30px;
+              border: 1px solid $blue;
+              transition: all 0.3s ease;
+              padding: 0.1vw 1vw 0.7vw 1vw;
+              background-color: $blue;
+              &:hover {
+                transition: all 0.3s ease;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                // transform: scale(1.05);
+                transform: translate(0, -2px);
+                border: 1px solid black;
+                .icon {
+                  color: white;
+                }
+              }
+              .icon {
+                color: white;
+                font-size: 3.5vw;
+                margin-right: 0.3vw;
+                display: inline;
+              }
+              p {
+                font-size: 3vw;
+                margin-left: 0.5vw;
+                line-height: 0%;
+                display: inline;
+
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

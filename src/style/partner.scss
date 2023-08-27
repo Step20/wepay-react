@@ -1,0 +1,42 @@
+@import "utilities";
+
+$text: #535353;
+
+.partner-out {
+  .partner-group {
+    .partner-text {
+      animation: fadeIn;
+      animation-duration: 2500ms;
+      width: 70%;
+      h1 {
+        font-weight: 700;
+        font-size: 2.8vw;
+      }
+      img {
+        width: 30%;
+        margin-right: 2vw;
+        margin-top: 1.1vw;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .partner {
+      animation: fadeInUp;
+      animation-duration: 2800ms;
+      margin-top: 7.5vw;
+
+      h1 {
+        font-weight: 700;
+        font-size: 2.8vw;
+        margin-bottom: 1.2vw;
+      }
+      img {
+        margin-bottom: 7vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 510px) {
+}

@@ -1,0 +1,237 @@
+@import "utilities";
+
+.under-bg {
+  z-index: 100;
+  width: 100%;
+  background: linear-gradient(180.64deg, #39393a 0.55%, #1e1e1e 112.04%);
+  .under-out {
+    background: linear-gradient(
+        161.7deg,
+        rgba(35, 35, 36, 0.66) 32%,
+        rgba(0, 0, 0, 0) 87.57%
+      ),
+      url("../assets/grad.png");
+    mix-blend-mode: screen;
+
+    .under-group {
+      display: table;
+      height: 30vh;
+      .under-body {
+        display: table-cell;
+        vertical-align: middle;
+        .icon-group {
+          animation: fadeIn;
+          animation-duration: 2600ms;
+          .icons {
+            color: white;
+            display: inline-flex;
+            align-self: center;
+
+            .icon {
+              transition: all 0.4s ease;
+              &:hover {
+                cursor: pointer;
+                transition: all 0.3s ease;
+                transform: scale(1.05);
+              }
+              align-self: center;
+              margin-right: 1.15vw;
+              display: inline-flex;
+              font-size: calc(4rem + 3.5vw);
+            }
+            .icon-text {
+              align-self: center;
+              h4 {
+                font-size: calc(1rem + 0.7vw);
+                font-weight: 500;
+              }
+              p {
+                width: 87%;
+                font-size: medium;
+                margin-top: -0.3vw;
+                font-weight: 200;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .under-bg {
+    width: 100%;
+    background: linear-gradient(180.64deg, #39393a 0.55%, #1e1e1e 112.04%);
+    .under-out {
+      background: linear-gradient(
+          161.7deg,
+          rgba(35, 35, 36, 0.66) 32%,
+          rgba(0, 0, 0, 0) 87.57%
+        ),
+        url("../assets/grad.png");
+      mix-blend-mode: screen;
+
+      .under-group {
+        display: table;
+        height: 30vh;
+        .under-body {
+          display: table-cell;
+          vertical-align: middle;
+          .icon-group {
+            .icons {
+              color: white;
+              display: inline-flex;
+              align-self: center;
+
+              .icon {
+                transition: all 0.4s ease;
+                &:hover {
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  transform: scale(1.05);
+                }
+                align-self: center;
+                margin-right: 1.15vw;
+                display: inline-flex;
+                font-size: calc(4rem + 3.5vw);
+              }
+              .icon-text {
+                align-self: center;
+                h4 {
+                  font-size: calc(1rem + 0.5vw);
+                  font-weight: 500;
+                }
+                p {
+                  width: 87%;
+                  font-size: small;
+                  margin-top: -0.3vw;
+                  font-weight: 200;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .under-bg {
+    width: 100%;
+    background: linear-gradient(180.64deg, #39393a 0.55%, #1e1e1e 112.04%);
+    .under-out {
+      background: linear-gradient(
+          161.7deg,
+          rgba(35, 35, 36, 0.66) 32%,
+          rgba(0, 0, 0, 0) 87.57%
+        ),
+        url("../assets/grad.png");
+      mix-blend-mode: screen;
+
+      .under-group {
+        display: table;
+        height: 30vh;
+        .under-body {
+          display: table-cell;
+          vertical-align: middle;
+          .icon-group {
+            .icons {
+              color: white;
+              display: inline-flex;
+              align-self: center;
+
+              .icon {
+                transition: all 0.4s ease;
+                &:hover {
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  transform: scale(1.05);
+                }
+                align-self: center;
+                margin-right: 1.15vw;
+                display: inline-flex;
+                font-size: calc(4rem + 9vw);
+              }
+              .icon-text {
+                align-self: center;
+                h4 {
+                  font-size: calc(1rem + 0.5vw);
+                  font-weight: 500;
+                }
+                p {
+                  width: 87%;
+                  font-size: small;
+                  margin-top: -0.3vw;
+                  font-weight: 200;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .under-bg {
+    width: 100%;
+    background: linear-gradient(180.64deg, #39393a 0.55%, #1e1e1e 112.04%);
+    .under-out {
+      background: linear-gradient(
+          161.7deg,
+          rgba(35, 35, 36, 0.66) 32%,
+          rgba(0, 0, 0, 0) 87.57%
+        ),
+        url("../assets/grad.png");
+      mix-blend-mode: screen;
+
+      .under-group {
+        display: table;
+        height: 30vh;
+        .under-body {
+          display: table-cell;
+          vertical-align: middle;
+
+          .icon-group {
+            margin-left: 17%;
+            align-self: center;
+            .icons {
+              color: white;
+              display: inline-flex;
+              align-self: center;
+
+              .icon {
+                transition: all 0.4s ease;
+                &:hover {
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  transform: scale(1.05);
+                }
+                align-self: center;
+                margin-right: 4vw;
+                display: inline-flex;
+                font-size: calc(3rem + 2vw);
+              }
+              .icon-text {
+                align-self: center;
+                h4 {
+                  font-size: calc(1rem + 0.3vw);
+                  font-weight: 500;
+                }
+                p {
+                  width: 87%;
+                  font-size: calc(0.6rem + 0.3vw);
+                  margin-top: -0.3vw;
+                  font-weight: 200;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

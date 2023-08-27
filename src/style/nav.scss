@@ -1,0 +1,44 @@
+@import "utilities";
+
+.nav {
+  color: $black;
+
+  background: rgb(255, 255, 255);
+  .nav-img img {
+    height: calc(1.2rem + 1vw);
+    width: calc(3.5rem + 4vw);
+
+    animation: fadeIn;
+    animation-duration: 2400ms;
+  }
+  .nav-group {
+    font-size: large;
+    .nav-text {
+      animation: fadeInDown;
+      animation-duration: 2200ms;
+      margin-right: 3.7vw;
+      &:hover {
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+    .nav-btn {
+      animation: fadeInDown;
+      animation-duration: 2200ms;
+      margin-left: 1vw;
+      background-color: rgba(0, 0, 0, 0);
+      color: black;
+      border-radius: 30px;
+      padding: 0.55vw 0.8vw 0.55vw 0.8vw;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: $blue;
+        color: white;
+        font-weight: bold;
+        border: $blue;
+        transition: all 0.3s ease;
+        transform: translate(0, -2px);
+      }
+    }
+  }
+}
